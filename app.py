@@ -2,8 +2,6 @@ import streamlit as st
 import pandas as pd
 import base64
 
-def cruzar_dataframes(df1, df2, columna):
-    return df1.merge(df2, on=columna)
 
 def app():
     st.title("Actualización de inventario celesa")
