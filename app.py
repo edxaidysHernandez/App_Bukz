@@ -1,3 +1,6 @@
+import streamlit as st
+import pandas as pd
+
 st.title("Actualización de inventario celesa")
 
 st.write("Cargar archivos CSV:")
